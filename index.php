@@ -53,7 +53,6 @@
             <td><?=$data->email ?></td>
             <td><?=$data->hp ?></td>
             <td>
-              <a href="create.php" type="button" class="btn btn-secondary">Add</a>
               <a href="edit.php?id=<?= $data->id ?>" type="button" class="btn btn-success">Edit</a>
               <a href="delete.php?id=<?= $data->id ?>" type="button" class="btn btn-danger">Delete</a>
             </td>
@@ -70,6 +69,7 @@
           ?>
         </tbody>
       </table>
+      <a href="create.php" type="button" class="btn btn-secondary">Add</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
